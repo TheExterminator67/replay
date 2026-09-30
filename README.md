@@ -63,7 +63,7 @@ Go to the **[latest release](https://github.com/TheExterminator67/replay/release
 2. Drag **Replay** into the **Applications** folder.
 3. Open Replay from Applications.
 
-**The first time only**, macOS will say Replay "can't be opened" because it isn't from the App Store (it isn't code-signed, which costs $99/year). To open it anyway:
+**The first time only**, macOS will say Replay "can't be opened" because it isn't from the App Store. To open it anyway:
 
 - Click **Done** on the warning, then open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to Replay. Confirm with your password.
 
