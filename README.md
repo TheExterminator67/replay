@@ -50,6 +50,7 @@ Go to the **[latest release](https://github.com/TheExterminator67/replay/release
 | 🪟 **Windows 10 / 11** | `Replay-Setup-x.y.z.exe` |
 | 🪟 Windows, no install (e.g. school PC) | `Replay-x.y.z-portable.exe` |
 | 📱 **iPhone / Android** | Use the [web version](https://tokplay-kappa.vercel.app) and *Add to Home Screen* (see below) |
+| 🧩 **Chrome / Edge extension** | `Replay-extension-x.y.z.zip` (adds a **Save to Replay** button on tiktok.com, see [setup](https://tokplay-kappa.vercel.app/extension)) |
 
 > **Not sure which Mac you have?** Click the  Apple menu → **About This Mac**. If "Chip" says *Apple M…*, get **arm64**. If it says *Intel*, get **x64**.
 
@@ -63,7 +64,7 @@ Go to the **[latest release](https://github.com/TheExterminator67/replay/release
 2. Drag **Replay** into the **Applications** folder.
 3. Open Replay from Applications.
 
-**The first time only**, macOS will say Replay "can't be opened" because it isn't from the App Store. To open it anyway:
+**The first time only**, macOS will say Replay "can't be opened" because it isn't from the App Store (it isn't code-signed, which costs $99/year). To open it anyway:
 
 - Click **Done** on the warning, then open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to Replay. Confirm with your password.
 
@@ -114,12 +115,17 @@ That's it: the sound is in your playlist. Other ways to add:
 | **Many at once** | Paste a bunch of links together (one per line is fine) → **Save N** |
 | **Drag & drop** | Drag a TikTok link onto any playlist in the sidebar |
 | **A creator's sounds** | Paste their profile link (`tiktok.com/@name`); this works *sometimes*, since TikTok often hides the list |
+| **From tiktok.com** | Install the [browser extension](https://tokplay-kappa.vercel.app/extension) and click **Save to Replay** on any video (or right-click a video link) |
 | **From your iPhone** | Set up the one-time [iPhone share shortcut](https://tokplay-kappa.vercel.app/ios), then in TikTok: **Share → Save to Replay** |
 
 ### Play
 
 - Click any sound to play it. Click the **spinning record** at the bottom for the **full-screen player**.
-- **Sped up / Slowed:** the `1×` button changes speed *and* pitch, TikTok-style.
+- **Speed:** the `1×` button has Slowed / Normal / Sped up and a slider from 0.5× to 1.5× (pitch follows speed, TikTok-style).
+- **Loop a part:** tap **A–B** at the start and again at the end (or press `A`). Tap once more to stop.
+- **Crossfade:** Settings → Playback, 0–10 seconds between sounds.
+- **Find the full song:** **⋯** on a sound → *Find the full song* opens Spotify, Apple Music, YouTube or SoundCloud with the song's name.
+- **More like this:** **⋯** → *More like this* shows sounds from the same sound, creator or tags, plus other TikToks using that sound.
 - **Queue:** **⋯** on a sound → *Play next* / *Add to queue*. Open the **Queue** button to drag things around.
 - **Sleep timer:** stop after 15–60 minutes, or at the end of the current sound.
 - It keeps playing when the window is closed (Mac) or minimized, and your keyboard's ⏯ ⏭ ⏮ keys work.
@@ -132,6 +138,16 @@ That's it: the sound is in your playlist. Other ways to add:
 - **Search everything:** press **/** or use the search box.
 - **♥ Liked sounds** and **Recently played** fill themselves.
 - **Check for unavailable sounds** (⋯ on a playlist) finds TikToks that were deleted.
+- **Select several:** ⌘/Ctrl-click sounds (Shift-click for a range), or long-press on a phone. Then play, queue, like, tag, add or remove them together.
+- **Undo:** removed something by accident? Hit **Undo** on the message at the bottom, or ⌘/Ctrl+Z.
+
+### Share & listen with friends
+
+- **Share a sound:** **⋯** → *Share sound* gives a link that plays it right in the browser.
+- **Story card:** **⋯** → *Story card* makes a "Now playing" picture for your Instagram / TikTok / Snapchat story.
+- **Public profile:** 👤 → *Create my profile* gets you a page like `replay/@yourname`. Choose which playlists show up with **⋯ → Show on my profile**.
+- **Collaborative playlists:** **⋯ → Invite friends to add sounds** copies a link. Anyone who opens it (and signs in) can add sounds too.
+- **Listen together:** open the full-screen player → **Listen together**, send the link, and friends hear what you play, live.
 
 ### Keyboard shortcuts
 
@@ -144,6 +160,9 @@ That's it: the sound is in your playlist. Other ways to add:
 | `S` / `R` | Shuffle / repeat |
 | `Q` | Queue |
 | `F` | Full-screen player |
+| `A` | Loop a part (A–B) |
+| `⌘/Ctrl` + click | Select several sounds |
+| `⌘/Ctrl` + `Z` | Undo |
 | `/` | Search |
 | `?` | All shortcuts |
 
@@ -161,6 +180,7 @@ That's it: the sound is in your playlist. Other ways to add:
 - Search across everything
 - Liked & Recently played
 - Unavailable-sound checker
+- Select many, undo
 - Backup & restore file
 
 </td><td>
@@ -168,8 +188,9 @@ That's it: the sound is in your playlist. Other ways to add:
 **Player**
 - Background & lock-screen playback
 - Media keys & lock-screen controls
-- Queue, shuffle, repeat
-- Sped up / Slowed
+- Queue, shuffle & smart shuffle, repeat
+- Speed 0.5×–1.5×, A–B loop
+- Crossfade, waveform progress bar
 - Sleep timer
 - Full-screen view with visualizer
 - Swipe to skip (phone)
@@ -177,12 +198,16 @@ That's it: the sound is in your playlist. Other ways to add:
 </td><td>
 
 **Extras**
-- Enhanced audio: volume boost, leveling, bass, reverb
+- Enhanced audio: EQ presets, boost, leveling, bass, reverb
 - Dark / Black / Light themes + accent color
 - Colors that follow the cover art
 - Stats & listening streaks 🔥
 - Accounts (Google or email) & sync
-- Share playlists with a link
+- Share playlists & single sounds, story cards
+- Public profiles, collaborative playlists, listen together
+- Find the full song, more like this
+- English & العربية
+- Browser extension
 - Works offline once loaded
 
 </td></tr>
@@ -207,7 +232,7 @@ No. Everything works without one, and your library is saved on your computer. Si
 <details>
 <summary><b>Where is my library stored? Is it private?</b></summary>
 
-On your device. If you sign in, a copy syncs to your own private space in the cloud that only your account can read. Replay has no ads and no tracking. **Download backup** (👤 → Backup file) saves everything to a file anytime.
+On your device. If you sign in, a copy syncs to your own private space in the cloud that only your account can read. Replay has no ads and no tracking cookies; anonymous usage counts and crash reports can be turned off in Settings → Privacy. Full details in the [privacy policy](https://tokplay-kappa.vercel.app/privacy). **Download backup** (👤 → Backup file) saves everything to a file anytime.
 </details>
 
 <details>
@@ -222,6 +247,18 @@ On your device. If you sign in, a copy syncs to your own private space in the cl
 <summary><b>Google sign-in doesn't open in the desktop app</b></summary>
 
 Allow the sign-in popup if asked. If Google says the browser isn't supported, use **email & password** instead (👤 → *Create an account*). Your library syncs the same way.
+</details>
+
+<details>
+<summary><b>Is there Arabic? / هل يوجد دعم للعربية؟</b></summary>
+
+Yes. Settings → Language → **العربية**. The whole app switches to Arabic with a right-to-left layout. It follows your device language automatically, too.
+</details>
+
+<details>
+<summary><b>Crossfade doesn't work on my iPhone</b></summary>
+
+iPhone and iPad don't let websites change the volume, so fades aren't possible there. Sounds still switch without a gap.
 </details>
 
 <details>
@@ -244,7 +281,7 @@ See the [releases page](https://github.com/TheExterminator67/replay/releases) fo
 
 <div align="center">
 
-Made by **[Sultan Alnuaimi](https://sultanalnuaimi.com)** · [GitHub](https://github.com/TheExterminator67)
+Made by **[Sultan Alnuaimi](https://sultanalnuaimi.com)** · [GitHub](https://github.com/TheExterminator67) · [Privacy](https://tokplay-kappa.vercel.app/privacy) · [Terms](https://tokplay-kappa.vercel.app/terms)
 
 <sub>Replay is closed-source and free to use. It is an independent project and is not affiliated with or endorsed by TikTok or ByteDance.</sub>
 
