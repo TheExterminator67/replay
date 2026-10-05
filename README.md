@@ -281,7 +281,8 @@ See the [releases page](https://github.com/TheExterminator67/replay/releases) fo
 
 <div align="center">
 
-Made by **[Sultan Alnuaimi](https://sultanalnuaimi.com)** · [GitHub](https://github.com/TheExterminator67) · [Privacy](https://tokplay-kappa.vercel.app/privacy) · [Terms](https://tokplay-kappa.vercel.app/terms)
+Made by **[Sultan Alnuaimi]
+** · [GitHub](https://github.com/TheExterminator67) · [Privacy](https://tokplay-kappa.vercel.app/privacy) · [Terms](https://tokplay-kappa.vercel.app/terms)
 
 <sub>Replay is closed-source and free to use. It is an independent project and is not affiliated with or endorsed by TikTok or ByteDance.</sub>
 
